@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+#music-name {
+    font-family: Impact;
+    color: white;
+    margin: 40px 0px;
+}
+
+
+#music-cover {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50% ;
+    box-shadow: 0px 0px 38px -10px #2980b9;
+    animation: glow .5s ease-out infinite alternate;
+    animation-play-state: paused;
+}
+
+@keyframes glow {
+    from {
+    box-shadow:0px 0px 38px -10px #2980b9;
+        background-color: linear-gradient(to right, #3498db, #2ecc71);
+    }
+
+    to {
+    box-shadow: 0px 0px 38px 10px #2980b9;
+        background-color: linear-gradient(to right, #3498db, #2ecc71);
+
+    }
+}
+
+#music-time {
+    width: 50%;
+    height: 10px;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+#music-time::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#btns i {
+    font-size: 2em;
+    margin: 0px 20px;
+    color: white;
+    padding:7px;
+    cursor: pointer;
+}
+
+.str {
+    color:white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
