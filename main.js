@@ -1,39 +1,39 @@
 let musics = [
     {
         name: "Heyecanı Yok !",
-        cover: "/Heyecani-Yok-By-Gazapizm.webp",
-        audio: new Audio("/musicOne.mp3")
+        cover: "Heyecani-Yok-By-Gazapizm.webp",
+        audio: new Audio("musicOne.mp3")
     },
     {
         name: "canbay & wolker şampiyon",
-        cover: "/canbay_wolker_şampiyon.webp",
-        audio: new Audio("/musicTwo.mp3")
+        cover: "canbay_wolker_şampiyon.webp",
+        audio: new Audio("musicTwo.mp3")
     },
 
     {
         name: "ما یه مشت رفیق نابیم",
-        cover: "/Alireza-Talischi-Refigh.webp",
-        audio: new Audio("/nadarim az to behtar.mp3")
+        cover: "Alireza-Talischi-Refigh.webp",
+        audio: new Audio("nadarim az to behtar.mp3")
     },
     {
         name: "آدم و حوا من و تو مجنون و لیلا من و تو",
-        cover: "/Moein-Z-Payam-Bash-1.webp",
-        audio: new Audio("/moein z payam bash.mp3")
+        cover: "Moein-Z-Payam-Bash-1.webp",
+        audio: new Audio("moein z payam bash.mp3")
     },
     {
         name: "تیکه تیکه",
-        cover: "/Hoorosh-Band-Tike-Tike.webp",
-        audio: new Audio("/Horoosh band - Tike tike - 320.mp3")
+        cover: "Hoorosh-Band-Tike-Tike.webp",
+        audio: new Audio("Horoosh band - Tike tike - 320.mp3")
     },
     {
         name: "ابی عالی مبارکه",
-        cover: "/Ebi.webp",
-        audio: new Audio("/Ebi Aali - Mobarakeh - 320.mp3")
+        cover: "Ebi.webp",
+        audio: new Audio("Ebi Aali - Mobarakeh - 320.mp3")
     },
         {
         name: "سون بند",
-        cover: "/7-band-in-baar-2024-09-06-01-00-41.webp",
-        audio: new Audio("/7band.mp3")
+        cover: "7-band-in-baar-2024-09-06-01-00-41.webp",
+        audio: new Audio("7band.mp3")
     }
 ]
 
